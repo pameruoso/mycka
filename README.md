@@ -9,3 +9,15 @@ First of approaching the exam always check the Curriculum Overview and the Candi
 You should not expect any questions around beta features. If the exam is running on Kubernetes 1.11.1 than you should not expect questions on features that are in beta for that version of Kubernetes.
 
 All the clusters are systemd based and this means that you will never use kubeadm in any case. Actually kubeadm is not in beta anymore and they could decide to update the exam with it.
+
+# Exam Preparation:
+
+Here is the list of material I used to approach the exam:
+
+1. KTHW on premises : https://blog.csnet.me/2018/04/on-prem-k8s-thw/. There is the same version for Azure, GCP and AWS but just repeate this tutorial as many time as possible. This will make you comfortable with certificates, systemd services and troubleshooting.
+
+During the exam you need to know where/what to look for (as fast as possible)
+
+2. Go through this entire list: https://github.com/walidshaari/Kubernetes-Certified-Administrator
+
+This will give you the teoretical concepts 
