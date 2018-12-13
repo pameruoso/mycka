@@ -14,6 +14,6 @@ All the clusters are systemd based and this means that you will never use kubead
 
 Here is the list of material I used to approach the exam:
 
-1. KTHW on premises : https://blog.csnet.me/2018/04/on-prem-k8s-thw/. There is the same version for Azure, GCP and AWS but just repeate this tutorial as many time as possible. This will make you comfortable with certificates, systemd services and troubleshooting.
+1. KTHW on premises : https://blog.csnet.me/2018/04/on-prem-k8s-thw/. There is the same version for Azure, GCP and AWS but just repeate this tutorial as many time as possible. This will make you comfortable with certificates, systemd services and troubleshooting every single component. In th exam you need to be comfortable with systemd (create the systemd service for kubelet, journalctl to get the logs, fix the services and so on...)
 
 2. Go through this list: https://github.com/walidshaari/Kubernetes-Certified-Administrator. It will give you all the theoretical concepts around Kubernetes primitives and some really good tips on troubleshooting the cluster components.
