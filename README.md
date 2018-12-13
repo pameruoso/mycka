@@ -18,11 +18,11 @@ Here is the list of material I used to approach the exam:
 
 2. Go through this list: https://github.com/walidshaari/Kubernetes-Certified-Administrator. It will give you all the theoretical concepts around Kubernetes primitives and some really good tips on troubleshooting the cluster components.
 
-3. The internet is full of free courses to start Kubernetes from 0. I mean if you want to start from 0 knowledge here is the entire updated list of materials you can use: https://docs.google.com/spreadsheets/d/10NltoF_6y3mBwUzQ4bcQLQfCE1BWSgUDcJXy-Qp2JEU/edit#gid=0
+3. The internet is full of free courses to start Kubernetes from 0. I mean, if you want to start from 0 knowledge here is the entire updated list of materials you can use: https://docs.google.com/spreadsheets/d/10NltoF_6y3mBwUzQ4bcQLQfCE1BWSgUDcJXy-Qp2JEU/edit#gid=0
 
-4. During the exam you can have 1 open tab to browse the entire Kubernetes.io domain. During my study time I used to create bookmarks on my browser tab for every single page that I found useful. For example I bookmarked every single page containing yaml template that I found useful to be reused (affinity, daemonsets, volumes and so on...). You can copy and paste from that pages or directly curl the yaml link in the exam. Next you can edit it with vim and apply -f it ;)
+4. During the exam you can have 1 open tab to browse the entire Kubernetes.io domain. While studying I used to create bookmarks on my browser tab for every single page that I found useful. For example I bookmarked every page containing yaml template that I found useful to be reused (affinity, daemonsets, volumes and so on...). You can copy and paste from that pages (only) or directly curl the yaml link in the exam. Next you can edit it with vim and apply -f it ;)
 
-5. Be FAST in imperatively generating yaml files. During the exam you DON'T have to remember yaml code, you will loose too much time and you can make errors in typing. You HAVE to generate them imperatively. For a pod just "kubectl run nginx --restart=Never --image=nginx --dry-run -o yaml > pod.yaml", next you can edit and apply.
+5. Be FAST in imperatively generating yaml files. During the exam you DON'T have to remember yaml code, you will lose too much time and you can make errors in typing. You HAVE to generate them imperatively. For a pod just "kubectl run nginx --restart=Never --image=nginx --dry-run -o yaml > pod.yaml", next you can edit and apply.
 
 6. I've been repeating FAST in this page: You have 3 hours. In my exam i went pretty fast during the first 22 questions, than I had still 80 minutes to do the 2 missing hardest questions. Time management is key, do not over-think the solutions, If the task wants a pod, than do a pod (not a deployment).
 
