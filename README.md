@@ -24,4 +24,4 @@ Here is the list of material I used to approach the exam:
 
 5. Be FAST in imperatively generating yaml files. During the exam you DON'T have to remember yaml code, you will loose too much time and you can make errors in typing. You HAVE to generate them imperatively. For a pod just "kubectl run nginx --restart=Never --image=nginx --dry-run -o yaml > pod.yaml", next you can edit and apply.
 
-6. I've been repeating FAST in this page: You have 3 hours. In my exam i went pretty fast during the first 22 questions, than I had still 80 minutes to do the 2 missing hardest questions :D. Time management is key, do not over-think the solutions, If the task wants a pod, than do a pod (not a deployment).
+6. I've been repeating FAST in this page: You have 3 hours. In my exam i went pretty fast during the first 22 questions, than I had still 80 minutes to do the 2 missing hardest questions. Time management is key, do not over-think the solutions, If the task wants a pod, than do a pod (not a deployment).
